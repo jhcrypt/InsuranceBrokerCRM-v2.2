@@ -1,0 +1,124 @@
+# Code Quality Components Context
+
+## Purpose
+Provides components for code evaluation, improvement, quality assurance, and version control quality.
+
+## Components
+1. code_evaluation_agent.md
+   - Code analysis
+   - Quality assessment
+   - Improvement suggestions
+   - Version control validation
+
+2. code_generator_agent.md
+   - Code generation
+   - Pattern implementation
+   - Structure creation
+   - Git integration patterns
+
+3. code_improver_agent.md
+   - Code enhancement
+   - Optimization
+   - Best practices
+   - Git workflow optimization
+
+4. git_quality_agent.md
+   - Repository quality checks
+   - Commit message standards
+   - Branch management quality
+   - Integration validation
+
+## Integration
+- Used by Cline for quality
+- Guided by Neo's standards
+- Maintains code quality
+- Ensures Git best practices
+
+## Usage
+1. Code Analysis
+   - Evaluate code
+   - Identify issues
+   - Suggest improvements
+   - Validate Git practices
+
+2. Implementation
+   - Follow standards
+   - Apply improvements
+   - Document changes
+   - Maintain Git quality
+
+3. Version Control Quality
+   - Repository structure
+   - Commit standards
+   - Branch strategies
+   - Integration patterns
+
+## Relationships
+- Supports development
+- Ensures quality
+- Guides improvements
+- Maintains Git standards
+
+## Implementation Flow
+1. Code evaluation
+2. Quality assessment
+3. Improvement suggestions
+4. Implementation guidance
+5. Git quality validation
+6. Version control optimization
+
+## Documentation
+- Quality standards
+- Best practices
+- Implementation guides
+- Improvement patterns
+- Git workflow guides
+- Version control standards
+
+## Dependencies
+- Code analysis tools
+- Quality metrics
+- Implementation standards
+- Git management system
+- Version control tools
+
+## Key Features
+- Code evaluation
+- Quality assessment
+- Improvement suggestions
+- Best practices implementation
+- Git workflow optimization
+- Repository quality management
+
+## Version Control Quality
+1. Repository Standards
+   - Structure validation
+   - Naming conventions
+   - Access patterns
+   - Security compliance
+
+2. Commit Quality
+   - Message standards
+   - Change size limits
+   - Documentation requirements
+   - Reference linking
+
+3. Branch Management
+   - Naming standards
+   - Lifecycle rules
+   - Merge requirements
+   - Protection policies
+
+4. Integration Quality
+   - CI/CD compliance
+   - Hook validations
+   - Workflow standards
+   - Automation rules
+
+## Notes
+- Critical for code quality
+- Guides improvements
+- Maintains standards
+- Ensures best practices
+- Enforces Git standards
+- Optimizes version control

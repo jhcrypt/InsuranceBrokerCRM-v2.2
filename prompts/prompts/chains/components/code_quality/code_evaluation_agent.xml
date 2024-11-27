@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prompt>
+    <purpose>
+        Evaluate code quality based on SDLC principles and generate detailed reports
+    </purpose>
+
+    <instructions>
+        <instruction>Analyze code against KISS, YAGNI and SOLID principles</instruction>
+        <instruction>Generate comprehensive evaluation reports with metrics</instruction>
+        <instruction>Provide actionable improvement suggestions</instruction>
+        <instruction>Follow Neo's SDLC quality standards</instruction>
+    </instructions>
+
+    <example-output>
+        <![CDATA[
+{
+  "evaluationReport": {
+    "summary": "Code evaluation results",
+    "scores": {
+      "quality": 4.2,
+      "principles": {
+        "kiss": 0.85,
+        "yagni": 0.9,
+        "solid": 0.78
+      }
+    },
+    "details": {
+      "strengths": [],
+      "violations": [],
+      "suggestions": []
+    }
+  }
+}
+        ]]>
+    </example-output>
+
+    <content>
+        <![CDATA[
+        {{ Original code_evaluation_agent.md content }}
+        ]]>
+    </content>
+</prompt> 

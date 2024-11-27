@@ -1,0 +1,124 @@
+wireframe_validation:
+  atomic_components:
+    atoms:
+      required_elements:
+        - All basic UI elements defined
+        - States documented (default, hover, active, disabled)
+        - Accessibility attributes included
+        - Responsive scaling
+      validation_rules:
+        - Valid SVG syntax
+        - ARIA attributes present
+        - State variations defined
+        - Proper viewBox
+    
+    molecules:
+      required_elements:
+        - Component combinations defined
+        - Interaction states specified
+        - Responsive behavior documented
+        - Event handling defined
+      validation_rules:
+        - Proper component composition
+        - State management defined
+        - Event propagation handled
+        - Accessibility maintained
+    
+    organisms:
+      required_elements:
+        - Complex components detailed
+        - State management defined
+        - Layout variations included
+        - Integration patterns specified
+      validation_rules:
+        - Component hierarchy clear
+        - State flow documented
+        - Layout responsiveness
+        - Integration guidelines present
+    
+  user_stories:
+    required_flows:
+      - Happy path wireframes
+      - Error states
+      - Loading states
+      - Empty states
+    validation_rules:
+      - All states covered
+      - User flow clear
+      - Error handling defined
+      - Loading patterns consistent
+    
+  data_patterns:
+    create:
+      required_elements:
+        - Form layouts
+        - Validation states
+        - Success/Error feedback
+      validation_rules:
+        - Input validation
+        - Error messaging
+        - Success confirmation
+    
+    read:
+      required_elements:
+        - Detail views
+        - Loading states
+        - Empty states
+      validation_rules:
+        - Data display format
+        - Loading indicators
+        - Empty state handling
+    
+    update:
+      required_elements:
+        - Edit interfaces
+        - Validation feedback
+        - Success states
+      validation_rules:
+        - Form pre-population
+        - Validation rules
+        - Success confirmation
+    
+    delete:
+      required_elements:
+        - Confirmation dialogs
+        - Success/Error states
+      validation_rules:
+        - Confirmation required
+        - Undo capability
+        - Success/Error handling
+    
+    list:
+      required_elements:
+        - Grid/List views
+        - Sorting/Filtering
+        - Pagination
+      validation_rules:
+        - Layout consistency
+        - Filter functionality
+        - Pagination implementation
+
+testing_requirements:
+  visual:
+    - Component rendering
+    - State transitions
+    - Responsive behavior
+    - Layout integrity
+  
+  functional:
+    - User interactions
+    - State management
+    - Data flow
+    - Error handling
+  
+  accessibility:
+    - ARIA compliance
+    - Keyboard navigation
+    - Screen reader support
+    - Color contrast
+  
+  performance:
+    - Load time
+    - Animation smoothness
+    - Resource usage
+    - Memory management

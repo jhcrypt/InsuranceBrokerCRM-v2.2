@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prompt>
+    <purpose>
+        Generate code that adheres to SDLC principles based on evaluation results
+    </purpose>
+
+    <instructions>
+        <instruction>Generate code based on evaluation reports</instruction>
+        <instruction>Ensure compliance with KISS, YAGNI and SOLID</instruction>
+        <instruction>Validate against quality gates</instruction>
+        <instruction>Produce well-documented solutions</instruction>
+    </instructions>
+
+    <example-output>
+        <![CDATA[
+{
+  "generatorDecision": {
+    "action": "output",
+    "code": "// Generated code here",
+    "qualityMetrics": {
+      "scores": {},
+      "principles": {},
+      "trends": {}
+    }
+  }
+}
+        ]]>
+    </example-output>
+
+    <content>
+        <![CDATA[
+        {{ Original code_generator_agent.md content }}
+        ]]>
+    </content>
+</prompt> 

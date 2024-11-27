@@ -1,0 +1,34 @@
+<purpose>
+    Summarize the given content based on the instructions and example-output
+</purpose>
+
+<instructions>
+    <instructions>Output in markdown format</instructions>
+    <instructions>Summarize into 4 sections: Main Points, Sentiment, and 3 hot takes biased toward the author and 3 hot takes based against the author </instructions>
+    <instructions>Write the summary in the same as the example-output</instructions>
+</instructions>
+
+<example-output>
+    # Title
+    ...
+
+    # High Level summary
+    ...
+
+    ## Main Point
+    ...
+
+    ## Sentiment
+    ...
+
+    ## Hot Take (bias towards the author)
+    ...
+
+    ## Hot Take (bias against the author)
+    ...
+
+</example-output>
+
+<content>
+    {...}
+</content>

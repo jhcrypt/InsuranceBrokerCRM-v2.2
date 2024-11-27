@@ -1,0 +1,120 @@
+# System Components Context
+
+## Purpose
+Manages core system functionality, operations, base utilities, and version control infrastructure.
+
+## Components
+1. system_prompt.md
+   - Core functionality
+   - System operations
+   - Base configuration
+
+2. git_system.md
+   - Version control infrastructure
+   - Repository management
+   - Change tracking system
+
+3. Integration
+- Core system operations
+- Base functionality
+- System management
+- Version control system
+
+## Usage
+4. System Operations
+   - Core functions
+   - Base operations
+   - System management
+   - Version control operations
+
+2. Configuration
+   - System setup
+   - Base settings
+   - Core configuration
+   - Git infrastructure setup
+
+3. Version Control Management
+   - Repository initialization
+   - Change tracking
+   - Security management
+   - Performance optimization
+
+## Relationships
+- Core system component
+- Base functionality
+- System operations
+- Version control integration
+
+## Implementation Flow
+1. System initialization
+2. Core operations
+3. Function management
+4. System maintenance
+5. Version control setup
+6. Repository management
+
+## Documentation
+- System guides
+- Operation manuals
+- Configuration docs
+- Maintenance guides
+- Git integration docs
+
+## Dependencies
+- Core system
+- Base utilities
+- System tools
+- Configuration management
+- Git management system
+
+## Key Features
+- Core functionality
+- System operations
+- Base utilities
+- Configuration management
+- Version control system
+
+## Version Control Features
+1. Repository Management
+   - Initialization systems
+   - Configuration handlers
+   - Security frameworks
+   - Access control systems
+
+2. File Operations
+   - Change detection
+   - File watching
+   - Batch processing
+   - State management
+
+3. Security Systems
+   - Encryption handlers
+   - Access controllers
+   - Secret managers
+   - Permission systems
+
+4. Performance Systems
+   - Operation optimizers
+   - Resource monitors
+   - Size controllers
+   - Batch processors
+
+5. Error Management
+   - Conflict handlers
+   - Backup systems
+   - Recovery managers
+   - Rollback controllers
+
+6. Analytics Systems
+   - Metrics collectors
+   - Performance analyzers
+   - Usage trackers
+   - Pattern analyzers
+
+## Notes
+- Critical system component
+- Core functionality provider
+- Base system operations
+- Essential configuration
+- Version control infrastructure
+- Repository management system

@@ -1,0 +1,170 @@
+# UI/UX Components
+
+## Overview
+This directory contains tools and components for UI/UX development, focusing on screenshot analysis, component generation, and user interface implementation.
+
+## Tools
+
+### Screenshot Analyzer
+- Purpose: Analyze UI screenshots to extract component requirements
+- Features:
+  - UI element detection
+  - Color scheme analysis
+  - Layout analysis
+  - Interactive element mapping
+  - Utility file validation
+- File: screenshot_analyzer.md
+
+### Component Generator
+- Purpose: Generate React components from analysis results
+- Features:
+  - Layout component generation
+  - Navigation component generation
+  - Content component generation
+  - Interactive component generation
+  - Utility file generation
+- File: component_generator.md
+
+## Required Utilities
+
+### lib/utils.ts
+- Purpose: Common utility functions
+- Features:
+  - Class name merging (cn)
+  - Tailwind integration
+- Dependencies:
+  - clsx
+  - tailwind-merge
+
+### components/icons.tsx
+- Purpose: Icon component library
+- Features:
+  - Lucide React icons
+  - Common icon exports
+  - TypeScript types
+- Dependencies:
+  - lucide-react
+
+## Integration Points
+- Works with Next.js and Tailwind CSS
+- Integrates with design systems
+- Supports accessibility standards
+- Follows performance best practices
+- Manages utility dependencies
+
+## Commands
+
+### Screenshot Analysis
+1. #analyze-screenshot
+   - Analyzes UI screenshots
+   - Generates component requirements
+   - Creates implementation templates
+   - Checks utility dependencies
+   - Options:
+     - --output-dir: Output directory
+     - --format: Output format
+     - --template: Template type
+     - --check-utils: Check utilities
+     - --gen-utils: Generate utilities
+
+2. #update-components
+   - Updates existing components
+   - Compares with new screenshots
+   - Provides implementation guidance
+   - Updates utility files
+   - Options:
+     - --components: Component path
+     - --diff: Show differences
+     - --apply: Apply changes
+     - --update-utils: Update utilities
+
+### Component Generation
+1. #generate-component
+   - Generates new components
+   - Creates utility files if missing
+   - Options:
+     - --type: Component type
+     - --template: Template to use
+     - --utils: Generate utilities
+
+2. #update-component
+   - Updates existing components
+   - Manages utility dependencies
+   - Options:
+     - --template: New template
+     - --merge: Merge existing code
+     - --utils: Update utilities
+
+## Dependencies
+- Next.js
+- Tailwind CSS
+- Lucide React icons
+- clsx
+- tailwind-merge
+- Image optimization tools
+- Testing frameworks
+
+## Standards
+- Use 'use client' directive
+- Apply Tailwind CSS classes
+- Integrate Lucide React icons
+- Configure image sources
+- Maintain component uniqueness
+- Handle CDN integration
+- Follow import conventions
+- Proper utility file management
+- Consistent import paths (@/lib/utils, @/components/icons)
+
+## Best Practices
+1. Component Structure
+   - Follow atomic design principles
+   - Maintain component hierarchy
+   - Use proper TypeScript types
+   - Implement proper prop interfaces
+
+2. Utility Management
+   - Keep utilities up to date
+   - Follow consistent import patterns
+   - Maintain utility documentation
+   - Check for missing dependencies
+
+3. Integration
+   - Coordinate between tools
+   - Maintain consistent output
+   - Follow established patterns
+   - Update documentation
+
+4. Code Quality
+   - Follow TypeScript best practices
+   - Maintain consistent styling
+   - Write comprehensive tests
+   - Document component usage
+
+## Workflow
+1. Screenshot Analysis
+   - Process screenshot
+   - Extract components
+   - Check utilities
+   - Generate requirements
+
+2. Component Generation
+   - Select templates
+   - Generate components
+   - Create/update utilities
+   - Validate output
+
+3. Integration
+   - Combine tool outputs
+   - Validate requirements
+   - Update documentation
+   - Maintain consistency
+
+## Notes
+- Always check utility dependencies
+- Maintain consistent import paths
+- Follow TypeScript standards
+- Keep documentation updated
+- Test generated components
+- Validate accessibility
+- Monitor performance
+- Update tools as needed

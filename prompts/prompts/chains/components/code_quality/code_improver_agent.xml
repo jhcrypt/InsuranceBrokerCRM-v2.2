@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prompt>
+    <purpose>
+        Improve existing code to better align with SDLC principles and quality standards
+    </purpose>
+
+    <instructions>
+        <instruction>Analyze improvement opportunities</instruction>
+        <instruction>Apply principle-based enhancements</instruction>
+        <instruction>Track and validate improvements</instruction>
+        <instruction>Generate detailed improvement reports</instruction>
+    </instructions>
+
+    <example-output>
+        <![CDATA[
+{
+  "improvementResult": {
+    "improvedCode": "// Improved code here",
+    "changes": [],
+    "metrics": {
+      "before": {},
+      "after": {},
+      "delta": {}
+    }
+  }
+}
+        ]]>
+    </example-output>
+
+    <content>
+        <![CDATA[
+        {{ Original code_improver_agent.md content }}
+        ]]>
+    </content>
+</prompt> 

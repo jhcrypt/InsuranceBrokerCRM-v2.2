@@ -1,0 +1,35 @@
+# Context Management Component
+
+## Overview
+This component handles the management and processing of context files according to the Codebase Context Specification (CCS). It provides tools and guidelines for creating, maintaining, and utilizing context files throughout the project.
+
+## Responsibilities
+- Context file creation and validation
+- Context hierarchy management
+- Context accumulation handling
+- Documentation source management
+- Context analysis and processing
+
+## Files
+- ccs-docs.md: Complete CCS specification
+- ccs_prompt.md: Guidelines for AI to handle context files
+- context_generator.md: Tool for generating context files
+- context_analyzer.md: Tool for analyzing context hierarchies
+
+## Integration Points
+- Works with all other components through context files
+- Provides context information to the AI system
+- Supports documentation generation
+- Enables context-aware development
+
+## Usage
+1. Follow CCS specification for context files
+2. Use provided tools for context management
+3. Maintain context hierarchy
+4. Keep documentation sources updated
+
+## Dependencies
+- Markdown processing
+- YAML/JSON parsing
+- File system operations
+- Documentation tools

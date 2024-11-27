@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prompt>
+    <purpose>
+        Rate code quality and provide comprehensive analysis based on SDLC standards
+    </purpose>
+
+    <instructions>
+        <instruction>Evaluate code against quality metrics</instruction>
+        <instruction>Assess principle compliance</instruction>
+        <instruction>Generate detailed rating reports</instruction>
+        <instruction>Provide actionable recommendations</instruction>
+    </instructions>
+
+    <example-output>
+        <![CDATA[
+{
+  "ratingReport": {
+    "scores": {},
+    "principleCompliance": {},
+    "analysis": "Rating analysis",
+    "recommendations": [],
+    "decision": "approve"
+  }
+}
+        ]]>
+    </example-output>
+
+    <content>
+        <![CDATA[
+        {{ Original code_rater.md content }}
+        ]]>
+    </content>
+</prompt> 
