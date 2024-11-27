@@ -1,16 +1,17 @@
 module.exports = {
-    testEnvironment: 'jsdom',
-    moduleNameMapper: {
-        '\\.(css|less|scss|sass)$': '<rootDir>/__mocks__/styleMock.js',
-        '\\.(gif|ttf|eot|svg)$': '<rootDir>/__mocks__/fileMock.js'
-    },
-    setupFilesAfterEnv: ['<rootDir>/jest.setup.js'],
-    testPathIgnorePatterns: ['/node_modules/'],
-    collectCoverage: true,
-    collectCoverageFrom: [
-        'js/**/*.js',
-        '!js/vendor/**/*.js'
-    ],
-    coverageDirectory: 'coverage',
-    verbose: true
+  preset: 'ts-jest',
+  collectCoverage: true,
+  coverageDirectory: 'coverage',
+  coverageReporters: ['json', 'text', 'lcov', 'clover'],
+  setupFilesAfterEnv: ['<rootDir>/js/__tests__/setupTests.js'],
+  testEnvironment: 'jsdom',
+  transform: {
+    '^.+\\.(js|jsx|ts|tsx)$': 'babel-jest',
+  },
+  extensionsToTreatAsEsm: ['.ts'],
+  moduleNameMapper: {
+    '^@/(.*)$': '<rootDir>/js/$1',
+  },
+  transformIgnorePatterns: ['<rootDir>/node_modules/'],
+  moduleDirectories: ['node_modules', 'js'],
 };
